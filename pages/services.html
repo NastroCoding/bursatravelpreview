@@ -14,7 +14,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="../assets/style.css" />
     <title>Bursa Travel</title>
 </head>
 
@@ -22,7 +22,7 @@
     <nav>
         <div class="nav__header">
             <div class="nav__logo">
-                <img class="w-32 m-auto h-full" src="/assets/img/bursa_logo.png" alt="Bursa Travel Logo">
+                <img class="w-32 m-auto h-full" src="../assets/img/bursa_logo.png" alt="Bursa Travel Logo">
             </div>
             <div class="nav__menu__btn" id="menu-btn">
                 <i class="ri-menu-line"></i>
@@ -30,10 +30,10 @@
         </div>
         <ul class="nav__links" id="nav-links">
             <li><a href="/">BERANDA</a></li>
-            <li><a href="/pages/about.html">TENTANG KAMI</a></li>
-            <li><a href="/pages/services.html">LAYANAN</a></li>
-            <li><a href="/pages/activity.html">AKTIFITAS</a></li>
-            <li><a href="/pages/contact.html">KONTAK KAMI</a></li>
+            <li><a href="about.html">TENTANG KAMI</a></li>
+            <li><a href="services.html">LAYANAN</a></li>
+            <li><a href="activity.html">AKTIFITAS</a></li>
+            <li><a href="contact.html">KONTAK KAMI</a></li>
             <li><a href="#">BOOK TRIP</a></li>
         </ul>
         <div class="nav__btns">
@@ -45,7 +45,7 @@
         <div class="mb-10 w-11/12 rounded-xl mx-auto">
             <div class="relative h-28 flex items-center justify-center">
                 <!-- <div class="absolute inset-0 bg-fixed bg-center bg-no-repeat bg-cover filter blur z-1"
-                style="background-image: url('{{ URL::asset('dist/assets/img/servicebackground.jpg') }}');">
+                style="background-image: url('{{ URL::asset('dist../assets/img/servicebackground.jpg') }}');">
             </div> -->
                 <h1
                     class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-center text-black md:text-3xl lg:text-4xl z-10">
@@ -59,7 +59,7 @@
                 <div
                     class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 h-auto">
                     <div class="h-64 overflow-hidden">
-                        <img src="../assets/img/card.jpg" alt="Badrinath Temple"
+                        <img src="..../assets/img/card.jpg" alt="Badrinath Temple"
                             class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                     </div>
                     <div class="p-6 space-y-4">
@@ -92,7 +92,7 @@
                     <div class="relative bg-white rounded-xl shadow-xl overflow-hidden">
                         <!-- Modal header -->
                         <div class="relative h-48 overflow-hidden">
-                            <img class="w-full h-full object-cover" src="../assets/img/card.jpg"
+                            <img class="w-full h-full object-cover" src="..../assets/img/card.jpg"
                                 alt="{{ $service->title }}">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                             <div class="absolute top-4 right-4">

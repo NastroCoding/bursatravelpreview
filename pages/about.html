@@ -19,7 +19,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
         crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="../assets/style.css" />
     <title>Bursa Travel</title>
   </head>
   <body>
@@ -27,7 +27,7 @@
       <div class="nav__header">
         <div class="nav__logo">
           <img class="w-32 m-auto h-full"
-            src="/assets/img/bursa_logo.png" alt="Bursa Travel Logo">
+            src="../assets/img/bursa_logo.png" alt="Bursa Travel Logo">
         </div>
         <div class="nav__menu__btn" id="menu-btn">
           <i class="ri-menu-line"></i>
@@ -35,10 +35,10 @@
       </div>
       <ul class="nav__links" id="nav-links">
         <li><a href="/">BERANDA</a></li>
-        <li><a href="/pages/about.html">TENTANG KAMI</a></li>
-        <li><a href="/pages/services.html">LAYANAN</a></li>
-        <li><a href="/pages/activity.html">AKTIFITAS</a></li>
-        <li><a href="/pages/contact.html">KONTAK KAMI</a></li>
+        <li><a href="about.html">TENTANG KAMI</a></li>
+        <li><a href="services.html">LAYANAN</a></li>
+        <li><a href="activity.html">AKTIFITAS</a></li>
+        <li><a href="contact.html">KONTAK KAMI</a></li>
         <li><a href="#">BOOK TRIP</a></li>
       </ul>
       <div class="nav__btns">
@@ -119,7 +119,7 @@
             <!-- History Content -->
             <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
                 <div class="text-center">
-                    <img src="/assets/img/bursa_logo.png" 
+                    <img src="../assets/img/bursa_logo.png" 
                          class="max-w-xs mx-auto" alt="Kelimatu Logo">
                 </div>
                 <div>
@@ -152,7 +152,7 @@
             <!-- Team Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow duration-300">
-                        <img class="w-full h-64 object-cover" src="/assets/img/IMG_2025.JPG" alt="{{ $team->name }}">
+                        <img class="w-full h-64 object-cover" src="../assets/img/IMG_2025.JPG" alt="{{ $team->name }}">
                         <div class="p-6">
                             <h3 class="text-xl font-medium text-gray-800 mb-2">Name</h3>
                             <p class="text-gray-600 leading-relaxed">Description</p>
@@ -242,7 +242,7 @@
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
-    <script src="{{ asset('main.js') }}"></script>
+    <script src="../assets/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {

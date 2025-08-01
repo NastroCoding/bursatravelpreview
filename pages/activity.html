@@ -14,7 +14,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="../assets/style.css" />
     <title>Bursa Travel</title>
 </head>
 
@@ -22,7 +22,7 @@
     <nav>
         <div class="nav__header">
             <div class="nav__logo">
-                <img class="w-32 m-auto h-full" src="/assets/img/bursa_logo.png" alt="Bursa Travel Logo">
+                <img class="w-32 m-auto h-full" src="../assets/img/bursa_logo.png" alt="Bursa Travel Logo">
             </div>
             <div class="nav__menu__btn" id="menu-btn">
                 <i class="ri-menu-line"></i>
@@ -30,10 +30,10 @@
         </div>
         <ul class="nav__links" id="nav-links">
             <li><a href="/">BERANDA</a></li>
-            <li><a href="/pages/about.html">TENTANG KAMI</a></li>
-            <li><a href="/pages/services.html">LAYANAN</a></li>
-            <li><a href="/pages/activity.html">AKTIFITAS</a></li>
-            <li><a href="/pages/contact.html">KONTAK KAMI</a></li>
+            <li><a href="about.html">TENTANG KAMI</a></li>
+            <li><a href="services.html">LAYANAN</a></li>
+            <li><a href="activity.html">AKTIFITAS</a></li>
+            <li><a href="contact.html">KONTAK KAMI</a></li>
             <li><a href="#">BOOK TRIP</a></li>
         </ul>
         <div class="nav__btns">
@@ -112,7 +112,7 @@
                             data-type="{{ in_array(pathinfo($gallery->media, PATHINFO_EXTENSION), ['jpeg', 'png', 'jpg', 'gif', 'webp']) ? 'image' : 'video' }}"
                             data-description="{{ $gallery->description }}">
                             <div class="aspect-w-16 aspect-h-9">
-                                <img src="/assets/img/card2.jpg" class="w-full h-48 object-cover" alt="">
+                                <img src="../assets/img/card2.jpg" class="w-full h-48 object-cover" alt="">
                             </div>
                         </a>
                         <div class="p-4">
@@ -153,7 +153,7 @@
 
                         <!-- Profile -->
                         <div class="flex items-center mb-6">
-                            <img src="/assets/img/card.jpg"
+                            <img src="../assets/img/card.jpg"
                                 alt="{{ $testimonial->name }}"
                                 class="w-12 h-12 rounded-full object-cover border-2 border-gray-100">
                             <div class="ml-4">
@@ -258,7 +258,7 @@
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
-    <script src="/assets/main.js"></script>
+    <script src="../assets/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
